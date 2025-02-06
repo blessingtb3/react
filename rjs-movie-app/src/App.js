@@ -1,9 +1,11 @@
+//our app functional component written in jsx 
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">{/* in html class element, in jsx we define and refer to classes by using className element */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
